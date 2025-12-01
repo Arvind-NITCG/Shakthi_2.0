@@ -26,6 +26,8 @@ except ImportError:
 COLOR_BG = "#050505"
 COLOR_ACCENT = "#00FFFF"
 COLOR_DANGER = "#FF3333"
+#User Configuration
+PIN = ""#enter your pin here
 THEME_MUSIC_PATH = r"" #Enter the path to your favourite music...
 
 # --- VOICE ENGINE SETUP ---
@@ -262,7 +264,7 @@ class VoiceAuthGUI:
                 time.sleep(0.1)
             
             pin_input = self.pin_entry.get()
-            if pin_input == "":#write your interseted pin here 
+            if pin_input == PIN:
                 self.access_granted("MANUAL OVERRIDE ACCEPTED")
                 return
             else:

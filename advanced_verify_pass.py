@@ -7,7 +7,7 @@ from resemblyzer import VoiceEncoder, preprocess_wav
 
 fs = 44100
 duration = 4
-threshold = 0.78 #hardcoded here
+threshold = 0.78 #hardcoded here. change it to your threshold
 
 print("Loading Shakthi engine")
 encoder = VoiceEncoder()
@@ -22,7 +22,6 @@ def authenticate_user():
     print("   🔒 SHAKTHI 2.0 - SECURITY CHECK")
     print("="*40)
     profile = get_app_data_path()
-    #profile = os.path.join(data,"master_voice.npy")
     if not os.path.exists(profile):
         print("Mater voice not found to compare and run advanced_record.py first")
         return False
