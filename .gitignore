@@ -1,0 +1,20 @@
+# Ignore Python Cache
+__pycache__/
+*.py[cod]
+
+# Ignore Build Artifacts (Don't push these!)
+build/
+dist/
+*.spec
+
+# Ignore Virtual Environment
+venv/
+env/
+.env
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore Sensitive/Large Data (Optional but recommended)
+# master_voice.npy
+# *.mp3
