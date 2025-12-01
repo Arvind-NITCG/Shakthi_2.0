@@ -1,0 +1,19 @@
+# --- Core AI & Voice ---
+torch
+resemblyzer
+sounddevice
+soundfile
+pyttsx3
+
+# --- Input Control (Lockdown) ---
+pynput
+keyboard
+
+# --- Multimedia ---
+pygame
+
+# --- CRITICAL VERSION LOCKS (Do not change) ---
+# We lock these specific versions to prevent PyInstaller crashes
+numpy<2.0.0
+scipy<1.12
+matplotlib
