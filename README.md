@@ -35,9 +35,9 @@
 
 1. **Create Your Voice Print 🎙️**
   Run the recording script to generate your biometric ID.
-  ```bash
+   ```bash
     python record.py
-    
+    ```
   Follow on screen prompts and this would generate a file named master_voice.npy carrying your voice data
 2. **Set Your Security PIN 🔑**
    Open the main file (GUI_Voice_auth_pro.py) in any text editor. Look for the comment "User Configuration" at the top and update your PIN and choose the local path to your favourite song to be played on successfull verification..
