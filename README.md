@@ -38,9 +38,9 @@
    ```bash
     python record.py
     ```
-  Follow on screen prompts and this would generate a file named master_voice.npy carrying your voice data
+   Follow on screen prompts and this would generate a file named master_voice.npy carrying your voice data
 2. **Set Your Security PIN 🔑**
-   Open the main file (GUI_Voice_auth_pro.py) in any text editor. Look for the comment "User Configuration" at the top and update your PIN and choose the local path to your favourite song to be played on successfull verification..
+   Open the main file (GUI_Voice_auth_pro.py) in any text editor. Look for the comment "User Configuration" at the top and update your PIN and choose the local path to your favourite song to be played on       successfull verification..
 3. **Update the cost threshold if required**
    The threshold is maintained as 0.78 and it is a similarity score between your live voice and the predefined voice in the master_voice.npy . If you want the system to be more strict keep the score any value between 0.75 to 0.80 . I have hardcoded it to 0.78 . You can analyse this by running the advanced_verify_pass.py , and the compatable threshold could be fixed for best personal experience.
 
