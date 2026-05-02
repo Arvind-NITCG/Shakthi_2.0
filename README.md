@@ -33,7 +33,7 @@
 # Configuration(First Time Setup)
   Before locking your system, you must train Shakthi to recognize YOU.
 
-1. **Create Your Voice Print 🎙️**
+1. **Create Your Voice Print **
   Run the recording script to generate your biometric ID.
    ```bash
     python record.py
